@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro - CloudSquad</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <h2>Criar conta no CloudSquad</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Usuário" required>
+            <input type="email" id="newEmail" placeholder="E-mail" required>
+            <input type="password" id="newPassword" placeholder="Senha" required>
+            <button type="submit">Cadastre-se</button>
+            <p class="error-message" id="registerError"></p>
+            <p>Já tem conta? <a href="login.html">Fazer login</a></p>
+        </form>
+    </div>
+    <script src="jar/cadastro.js"></script>
+</body>
+</html>
